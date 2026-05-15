@@ -1,0 +1,112 @@
+﻿<Window x:Class="FlotaMariaPerezGoti.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Hundir la Flota" Height="650" Width="420">
+
+    <StackPanel Margin="10">
+
+        <!-- Titulo -->
+        <TextBlock Text="HUNDIR LA FLOTA"
+                   FontSize="20" FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,10"/>
+
+        <!-- Tablero 4x4 -->
+        <Grid x:Name="gridTablero" HorizontalAlignment="Center">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="80"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Fila 0 -->
+            <Button Grid.Row="0" Grid.Column="0" Tag="0,0" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Row="0" Grid.Column="1" Tag="0,1" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Row="0" Grid.Column="2" Tag="0,2" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Row="0" Grid.Column="3" Tag="0,3" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+
+            <!-- Fila 1 -->
+            <Button Grid.Row="1" Grid.Column="0" Tag="1,0" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Row="1" Grid.Column="1" Tag="1,1" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Row="1" Grid.Column="2" Tag="1,2" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Row="1" Grid.Column="3" Tag="1,3" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+
+            <!-- Fila 2 -->
+            <Button Grid.Row="2" Grid.Column="0" Tag="2,0" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Row="2" Grid.Column="1" Tag="2,1" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Row="2" Grid.Column="2" Tag="2,2" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Row="2" Grid.Column="3" Tag="2,3" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+
+            <!-- Fila 3 -->
+            <Button Grid.Row="3" Grid.Column="0" Tag="3,0" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Row="3" Grid.Column="1" Tag="3,1" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Row="3" Grid.Column="2" Tag="3,2" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Row="3" Grid.Column="3" Tag="3,3" Click="Boton_Click" Margin="2">
+                <Image Source="Imagenes/agua.png" Stretch="Fill"/>
+            </Button>
+
+        </Grid>
+
+        <!-- Boton de reiniciar -->
+        <Button x:Name="btnReset"
+                Content="Reiniciar"
+                Width="150" Height="35"
+                Margin="0,15,0,10"
+                Click="BtnReset_Click"/>
+
+        <!-- Tabla de jugadas -->
+        <TextBlock Text="Jugadas realizadas:" FontWeight="Bold" Margin="0,0,0,5"/>
+
+        <DataGrid x:Name="tablaJugadas"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  Height="130"
+                  CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Numero"    Binding="{Binding Numero}"    Width="60"/>
+                <DataGridTextColumn Header="Fila"      Binding="{Binding PosX}"      Width="60"/>
+                <DataGridTextColumn Header="Columna"   Binding="{Binding PosY}"      Width="70"/>
+                <DataGridTextColumn Header="Resultado" Binding="{Binding Resultado}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </StackPanel>
+</Window>
