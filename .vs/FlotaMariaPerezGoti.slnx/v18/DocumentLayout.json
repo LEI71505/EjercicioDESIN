@@ -1,12 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Tarde\\Desktop\\2\u00BADAM\\DESIN\\FlotaMariaPerezGoti\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68EA2698-196B-73B8-76D6-E9CFA06BA0D5}|FlotaMariaPerezGoti\\FlotaMariaPerezGoti.csproj|c:\\users\\tarde\\desktop\\2\u00BAdam\\desin\\flotamariaperezgoti\\flotamariaperezgoti\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{68EA2698-196B-73B8-76D6-E9CFA06BA0D5}|FlotaMariaPerezGoti\\FlotaMariaPerezGoti.csproj|solutionrelative:flotamariaperezgoti\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68EA2698-196B-73B8-76D6-E9CFA06BA0D5}|FlotaMariaPerezGoti\\FlotaMariaPerezGoti.csproj|c:\\users\\tarde\\desktop\\2\u00BAdam\\desin\\flotamariaperezgoti\\flotamariaperezgoti\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{68EA2698-196B-73B8-76D6-E9CFA06BA0D5}|FlotaMariaPerezGoti\\FlotaMariaPerezGoti.csproj|solutionrelative:flotamariaperezgoti\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Tarde\\Desktop\\2\u00BADAM\\DESIN\\FlotaMariaPerezGoti\\FlotaMariaPerezGoti\\App.xaml",
+              "RelativeDocumentMoniker": "FlotaMariaPerezGoti\\App.xaml",
+              "ToolTip": "C:\\Users\\Tarde\\Desktop\\2\u00BADAM\\DESIN\\FlotaMariaPerezGoti\\FlotaMariaPerezGoti\\App.xaml",
+              "RelativeToolTip": "FlotaMariaPerezGoti\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-19T14:22:47.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Tarde\\Desktop\\2\u00BADAM\\DESIN\\FlotaMariaPerezGoti\\FlotaMariaPerezGoti\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "FlotaMariaPerezGoti\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Tarde\\Desktop\\2\u00BADAM\\DESIN\\FlotaMariaPerezGoti\\FlotaMariaPerezGoti\\MainWindow.xaml",
+              "RelativeToolTip": "FlotaMariaPerezGoti\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-19T14:21:39.125Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
